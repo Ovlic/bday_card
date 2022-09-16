@@ -1,15 +1,15 @@
 var aText = new Array(
     "(Project started on Sept 11 2022, Finished on Sept -- 2022)",
     "",
-    "Text",
+    "Dear Asia,",
     "I can’t imagine a life where I didn’t meet you. Ever since last August we have been talking nonstop and sharing moments from our lives together. We had our issues but we always were able to recover from them and change our ways. You changed me for the better and I can’t even express how thankful I am for that. Even though you and I don’t talk as much anymore, I want you to know that you still mean a lot to me. Thank you for making the past year so fun and letting me tag along on your adventures.",
     "",
     "Happy Birthday,",
     //"Ovlic"
 )
 
-var iSpeed = 50; // time delay of print out (the lower the faster)
-var periodpause_speed = 500
+var iSpeed = 10//50; // time delay of print out (the lower the faster)
+var periodpause_speed = 100//500
 var iIndex = 0; // start printing array at this posision
 var iArrLength = aText[0].length; // the length of the text array
 var iScrollAt = 20; // start scrolling up at this many lines
@@ -76,9 +76,6 @@ function typewriter() {
             setTimeout(() => {
                 var elem = document.getElementById("glitchtxt")
                 elem.style.display = "initial"
-                setTimeout(function(){
-                    afterglitch.style.display = "initial"
-                })
             }, periodpause_speed)
         }
     

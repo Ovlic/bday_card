@@ -76,4 +76,4 @@ setTimeout(() => {
         
     }, 500);
         
-}, 3650)//1750); // SET TO 5000 FOR FINAL
+}, 3550)//1750); // SET TO 5000 FOR FINAL
