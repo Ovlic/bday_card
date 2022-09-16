@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/augmented-ui@2/augmented-ui.min.css">
+        <script src='//cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js'></script> -->
+        <script type="text/javascript" src="libs/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="libs/jquery.lettering.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="libs/augmented-ui.min.css">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="glitch.css">
+        <link rel="stylesheet" href="loadglitch.css">
+
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div id="bg"></div>
+        <div id="background_img"></div>
+        
+        <div id="thecontainer" style="display: relative;">
+            <div id="cover_load">
+                <div class="overlay" id="loading_screen"></div>
+                <div class="word" id="loading_text">LOADING...</div>
+                
+            </div>
+            <!--<button class="activate" style="display: flex;justify-content: center;" id="activatebutton" type="button">Activate animation</button>-->
+            <div id="cover">
+                <span class="center-screen" id="centerspan">
+                    <!-- data-secret="JF2CO4ZAO5UGC5BAORUGKICJNRWHK3LJNZQXI2JAO5QW45DFMQQGC3DMEBQWY33OM4XCASSKGJMEONKCIFHE4VKXJFNEISSOLJKFGNCJINLE4WSXI5FTIM2UIZMVQQZUKBMT2===" -->
+                    <div id="announc3ment"> <!--</div> data-augmented-ui="" class="announc3ment"> -->
+                        <!--<b style="margin: auto">Deus Ex: Alien Intervention</b><br>
+                        The trillogy concludes Aug 2021. -->
+                        <div id="typedtext">
+                            <span id="cursor" style="color: white; display: inline" class="blink hidden">█</span>
+                        </div>
+                        <div class="hero-container">
+                            <h2 class="hero glitch layers" data-text="hello" style="display: None;" id="glitchtxt"><span>Ovlic</span></h2>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+        <script src="loadglitch.js"></script>
+        <script src="typewriter.js"></script>
+    </body>
+</html>
